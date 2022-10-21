@@ -128,13 +128,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/appaluse_0.wav">
+    <source src="dag_audio/applause_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/appaluse_1.wav">
+    <source src="dag_audio/applause_1.wav">
   </audio>
 </html>
 
