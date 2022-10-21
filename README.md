@@ -18,7 +18,7 @@ fullband signals end-to-end in the waveform domain. Results
 show the superiority of DAG over existing label-conditioned
 deep generative baseline.
 
-![](SAR_generator_v0.png)
+![DAG Generator Schematic](SAR_generator_v0.png)
 
 ### Reference
 
@@ -30,13 +30,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/waves_00.wav">
+    <source src="dag_audio/waves_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/waves_01.wav">
+    <source src="dag_audio/waves_1.wav">
   </audio>
 </html>
 
@@ -44,13 +44,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/wind_00.wav">
+    <source src="dag_audio/wind_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/wind_01.wav">
+    <source src="dag_audio/wind_1.wav">
   </audio>
 </html>
 
@@ -58,13 +58,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/rain_00.wav">
+    <source src="dag_audio/rain_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/rain_01.wav">
+    <source src="dag_audio/rain_1.wav">
   </audio>
 </html>
 
@@ -72,13 +72,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/river_00.wav">
+    <source src="dag_audio/river_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/river_01.wav">
+    <source src="dag_audio/river_1.wav">
   </audio>
 </html>
 
@@ -86,13 +86,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/fire_00.wav">
+    <source src="dag_audio/fire_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/fire_01.wav">
+    <source src="dag_audio/fire_1.wav">
   </audio>
 </html>
 
@@ -100,13 +100,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/horse_00.wav">
+    <source src="dag_audio/horse_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/horse_01.wav">
+    <source src="dag_audio/horse_1.wav">
   </audio>
 </html>
 
@@ -114,13 +114,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/piano_00.wav">
+    <source src="dag_audio/piano_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/piano_01.wav">
+    <source src="dag_audio/piano_1.wav">
   </audio>
 </html>
 
@@ -128,13 +128,13 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/appaluse_00.wav">
+    <source src="dag_audio/appaluse_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/appaluse_01.wav">
+    <source src="dag_audio/appaluse_1.wav">
   </audio>
 </html>
 
@@ -142,12 +142,12 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 <html>
   <audio controls>
-    <source src="dag_audio/steps_00.wav">
+    <source src="dag_audio/steps_0.wav">
   </audio>
 </html>
 
 <html>
   <audio controls>
-    <source src="dag_audio/steps_01.wav">
+    <source src="dag_audio/steps_1.wav">
   </audio>
 </html>
