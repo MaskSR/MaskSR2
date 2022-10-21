@@ -24,16 +24,77 @@ deep generative baseline.
 
 S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband General Auido Synthesis With Score-Based Diffusion**.
 
-## Examples
+## UrbandSound8K Examples
+
+### Dog barks
+
+<html>
+  <audio controls>
+    <source src="dag_audio/dogbark_0.wav">
+  </audio>
+</html>
+
+<html>
+  <audio controls>
+    <source src="dag_audio/dogbark_1.wav">
+  </audio>
+</html>
+
+### Engine idling
+
+<html>
+  <audio controls>
+    <source src="dag_audio/engine_idling_0.wav">
+  </audio>
+</html>
+
+<html>
+  <audio controls>
+    <source src="dag_audio/engine_idling_1.wav">
+  </audio>
+</html>
+
+### Gunshot
+
+<html>
+  <audio controls>
+    <source src="dag_audio/gunshot_0.wav">
+  </audio>
+</html>
+
+<html>
+  <audio controls>
+    <source src="dag_audio/gunshot_1.wav">
+  </audio>
+</html>
+
+### Jackhammer
+
+<html>
+  <audio controls>
+    <source src="dag_audio/jackhammer_0.wav">
+  </audio>
+</html>
+
+<html>
+  <audio controls>
+    <source src="dag_audio/jackhammer_1.wav">
+  </audio>
+</html>
+
+
+## Showcase Examples
 
 ### Wave
 
+#### wave splashing
 <html>
   <audio controls>
     <source src="dag_audio/waves_0.wav">
   </audio>
 </html>
 
+#### wave lapping
 <html>
   <audio controls>
     <source src="dag_audio/waves_1.wav">
@@ -42,12 +103,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Wind
 
+#### wind whistling
 <html>
   <audio controls>
     <source src="dag_audio/wind_0.wav">
   </audio>
 </html>
 
+#### wind gust
 <html>
   <audio controls>
     <source src="dag_audio/wind_1.wav">
@@ -56,12 +119,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Rain
 
+#### rain on grass
 <html>
   <audio controls>
     <source src="dag_audio/rain_0.wav">
   </audio>
 </html>
 
+#### rain on umbrella
 <html>
   <audio controls>
     <source src="dag_audio/rain_1.wav">
@@ -70,12 +135,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### River
 
+#### close water running
 <html>
   <audio controls>
     <source src="dag_audio/river_0.wav">
   </audio>
 </html>
 
+#### stream with birds singing
 <html>
   <audio controls>
     <source src="dag_audio/river_1.wav">
@@ -84,12 +151,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Fire
 
+#### fire embers
 <html>
   <audio controls>
     <source src="dag_audio/fire_0.wav">
   </audio>
 </html>
 
+#### wood fire crackling
 <html>
   <audio controls>
     <source src="dag_audio/fire_1.wav">
@@ -98,12 +167,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Horse
 
+#### horse gallop
 <html>
   <audio controls>
     <source src="dag_audio/horse_0.wav">
   </audio>
 </html>
 
+#### horse carriage
 <html>
   <audio controls>
     <source src="dag_audio/horse_1.wav">
@@ -112,12 +183,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Piano
 
+#### large dynamics betwen notes
 <html>
   <audio controls>
     <source src="dag_audio/piano_0.wav">
   </audio>
 </html>
 
+#### soft and reverberant
 <html>
   <audio controls>
     <source src="dag_audio/piano_1.wav">
@@ -126,12 +199,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Applause
 
+#### crowd applausing and cheering
 <html>
   <audio controls>
     <source src="dag_audio/applause_0.wav">
   </audio>
 </html>
 
+#### close applausing
 <html>
   <audio controls>
     <source src="dag_audio/applause_1.wav">
@@ -140,12 +215,14 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Footstep
 
+#### footsteps on wooden floor
 <html>
   <audio controls>
     <source src="dag_audio/steps_0.wav">
   </audio>
 </html>
 
+#### walking on grass
 <html>
   <audio controls>
     <source src="dag_audio/steps_1.wav">
