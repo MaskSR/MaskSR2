@@ -1,6 +1,10 @@
+---
+layout: page
+title: DAG
+---
 # FULLBAND GENERAL AUDIO SYNTHESIS WITH SCORE-BASED DIFFUSION
 
-This is the demonstration page of the paper "FULLBAND GENERAL AUDIO SYNTHESIS WITH SCORE-BASED DIFFUSION" with some selected samples generated with the proposed method.
+This is the demonstration page of the paper "Fullband General Auido Synthesis With Score-Based Diffusion" with some selected samples generated with the proposed method.
 
 ## Info
 
@@ -18,7 +22,7 @@ fullband signals end-to-end in the waveform domain. Results
 show the superiority of DAG over existing label-conditioned
 deep generative baseline.
 
-![DAG Generator Schematic](SAR_generator_v0.png)
+![DAG Generator Schematic](./files/SAR_generator_v0.png)
 
 ### Reference
 
