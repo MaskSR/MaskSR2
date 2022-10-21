@@ -18,8 +18,6 @@ fullband signals end-to-end in the waveform domain. Results
 show the superiority of DAG over existing label-conditioned
 deep generative baseline.
 
-![DAG Generator Schematic](./files/SAR_generator_v0.png)
-
 ### Reference
 
 S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband General Auido Synthesis With Score-Based Diffusion**.
