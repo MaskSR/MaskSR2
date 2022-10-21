@@ -1,7 +1,3 @@
----
-layout: page
-title: DAG
----
 # FULLBAND GENERAL AUDIO SYNTHESIS WITH SCORE-BASED DIFFUSION
 
 This is the demonstration page of the paper "Fullband General Auido Synthesis With Score-Based Diffusion" with some selected samples generated with the proposed method.
