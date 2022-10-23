@@ -309,3 +309,51 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
     <source src="dag_audio/steps_1.wav">
   </audio>
 </html>
+
+## Conversion Examples
+
+### Acapella Rosalia
+
+**input**
+<html>
+  <audio controls>
+    <source src="dag_conversion/acapella_rosalia.wav">
+  </audio>
+</html>
+
+**output using piano model**
+<html>
+  <audio controls>
+    <source src="dag_conversion/acapella_rosalia_piano_conversion.wav">
+  </audio>
+</html>
+
+### Acapella Dualipa
+
+**input**
+<html>
+  <audio controls>
+    <source src="dag_conversion/acapella_dualipa.wav">
+  </audio>
+</html>
+
+**output using piano model**
+<html>
+  <audio controls>
+    <source src="dag_conversion/acapella_dualipa_piano_conversion.wav">
+  </audio>
+</html>
+
+**output using dog bark model**
+<html>
+  <audio controls>
+    <source src="dag_conversion/acapella_dualipa_dogs_conversion.wav">
+  </audio>
+</html>
+
+**output using drilling model**
+<html>
+  <audio controls>
+    <source src="dag_conversion/acapella_dualipa_drill_conversion.wav">
+  </audio>
+</html>
