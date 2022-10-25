@@ -1,6 +1,6 @@
-# Fullband General Auido Synthesis With Score-Based Diffusion
+# Fullband General Audio Synthesis With Score-Based Diffusion
 
-This is the demonstration page of the paper "Fullband General Auido Synthesis With Score-Based Diffusion" with some selected samples generated with the proposed method.
+This is the demonstration page of the paper "Fullband General Audio Synthesis With Score-Based Diffusion" with some selected samples generated with the proposed method.
 
 ## Info
 
@@ -20,7 +20,7 @@ deep generative baseline.
 
 ### Reference
 
-S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband General Auido Synthesis With Score-Based Diffusion**.
+S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband General Audio Synthesis With Score-Based Diffusion**.
 
 ## UrbandSound8K Examples
 
