@@ -176,15 +176,15 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
 
 ### Wind
 
+**wind whistling**
 <html>
-  <b>wind whistling</br>
   <audio controls>
     <source src="dag_audio/wind_0.wav">
   </audio>
 </html>
 
+**wind gust**
 <html>
-  <b>wind gust</b>
   <audio controls>
     <source src="dag_audio/wind_1.wav">
   </audio>
