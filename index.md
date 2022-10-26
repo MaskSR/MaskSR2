@@ -302,7 +302,9 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
   </audio>
 </html>
 
-## Conversion Examples
+## Style Transfer Examples
+
+We use samples from Medley-solos-DB [1] as "input" (inject it before the first sampling step) to DAG and generate "outputs" with different models.
 
 ### Flute
 
@@ -343,3 +345,4 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Fullband 
   </audio>
 </html>
 
+[1] V. Lostanlen, C.E. Cella. Deep convolutional networks on the pitch spiral for musical instrument recognition. Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2016.
