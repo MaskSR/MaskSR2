@@ -16,6 +16,8 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Full-band
 
 ## UrbandSound8K Examples
 
+The following examples are generated using the hyper-parameter gamma=2
+
 ### Air conditioner
 
 <html>
@@ -157,6 +159,8 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Full-band
 </html>
 
 ## Showcase Examples
+
+The following examples are generated using the hyper-parameter gamma=1
 
 ### Wave
 
