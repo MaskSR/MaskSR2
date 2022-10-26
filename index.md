@@ -16,7 +16,7 @@ S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Full-band
 
 ## UrbandSound8K Examples
 
-The following examples are generated using the hyper-parameter gamma=2
+The following examples are generated using the classifier-free guidance weight gamma=2
 
 ### Air conditioner
 
@@ -160,7 +160,7 @@ The following examples are generated using the hyper-parameter gamma=2
 
 ## Showcase Examples
 
-The following examples are generated using the hyper-parameter gamma=1
+The following examples are generated using the classifier-free guidance weight gamma=1
 
 ### Wave
 
