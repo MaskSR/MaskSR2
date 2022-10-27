@@ -12,11 +12,13 @@ existing label-conditioned generators in terms of both quality and diversity. Mo
 
 ### Reference
 
-S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2022). **Full-band General Audio Synthesis With Score-Based Diffusion**.
+**Full-band General Audio Synthesis With Score-Based Diffusion**. <br>
+S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà. <br> 
+[Arxiv: 2206.03065](https://arxiv.org/abs/2206.03065). October 2022.
 
-## UrbandSound8K Examples
+## Paper Examples
 
-The following examples are generated using the classifier-free guidance weight gamma=2
+The following examples are generated using the classifier-free guidance weight gamma=2. The model is trained on [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html) dataset.
 
 ### Air conditioner
 
@@ -308,7 +310,7 @@ The following examples are generated using the classifier-free guidance weight g
 
 ## Style Transfer Examples
 
-We use samples from Medley-solos-DB [1] as "input" (inject it before the first sampling step) to DAG and generate "outputs" with different models.
+We use samples from [Medley-solos-DB](https://zenodo.org/record/1344103) as "input" (inject it before the first sampling step) to DAG and generate "outputs" with different models.
 
 ### Flute
 
@@ -389,5 +391,3 @@ We use samples from Medley-solos-DB [1] as "input" (inject it before the first s
   </audio>
 </html>
 
-
-[1] V. Lostanlen, C.E. Cella. Deep convolutional networks on the pitch spiral for musical instrument recognition. Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2016.
