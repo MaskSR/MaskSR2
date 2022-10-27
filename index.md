@@ -12,7 +12,7 @@ existing label-conditioned generators in terms of both quality and diversity. Mo
 
 ### Reference
 
-S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2019). **Full-band General Audio Synthesis With Score-Based Diffusion**.
+S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà.  (2022). **Full-band General Audio Synthesis With Score-Based Diffusion**.
 
 ## UrbandSound8K Examples
 
