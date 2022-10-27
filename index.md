@@ -1,6 +1,6 @@
-# Full-band General Audio Synthesis With Score-Based Diffusion
+# Full-band General Audio Synthesis With Score-based Diffusion
 
-This is the demonstration page of the paper "Full-band General Audio Synthesis With Score-Based Diffusion" with some selected samples generated with the proposed method.
+This is the demonstration page of the paper "Full-band General Audio Synthesis With Score-based Diffusion" with some selected samples generated with the proposed method.
 
 
 ## Info
@@ -12,7 +12,7 @@ existing label-conditioned generators in terms of both quality and diversity. Mo
 
 ### Reference
 
-**Full-band General Audio Synthesis With Score-Based Diffusion**. <br>
+**Full-band General Audio Synthesis With Score-based Diffusion**. <br>
 S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà. <br> 
 [Arxiv: 2210.14661](https://arxiv.org/abs/2210.14661). October 2022.
 
