@@ -14,7 +14,7 @@ existing label-conditioned generators in terms of both quality and diversity. Mo
 
 **Full-band General Audio Synthesis With Score-Based Diffusion**. <br>
 S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà. <br> 
-[Arxiv: 2206.03065](https://arxiv.org/abs/2206.03065). October 2022.
+[Arxiv: 2210.14661](https://arxiv.org/abs/2210.14661). October 2022.
 
 ## Paper Examples
 
