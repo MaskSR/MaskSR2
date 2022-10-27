@@ -160,7 +160,7 @@ The following examples are generated using the classifier-free guidance weight g
 
 ## Showcase Examples
 
-The following examples are generated using the classifier-free guidance weight gamma=1
+The following examples are generated using the classifier-free guidance weight gamma=0
 
 ### Wave
 
