@@ -13,8 +13,9 @@ existing label-conditioned generators in terms of both quality and diversity. Mo
 ### Reference
 
 **Full-band General Audio Synthesis With Score-based Diffusion**. <br>
-S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà. <br> 
-[Arxiv: 2210.14661](https://arxiv.org/abs/2210.14661). October 2022.
+S. Pascual, G. Bhattacharya., C. Yeh, J. Pons, & J. Serrà. <br>
+2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). <br>
+[Arxiv: 2210.14661](https://arxiv.org/abs/2210.14661)
 
 ## Paper Examples
 
