@@ -15,4 +15,6 @@ reconstructs the target speech tokens with efficient iterative sampling. Extensi
 and also on sub-tasks compared with a wide range of models.
 
 
+## Demos
 
+Below, we include audio samples demonstrating how MaskSR performs on the full-band speech restoration task and several sub-tasks.
