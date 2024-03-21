@@ -39,8 +39,20 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
           </audio>
         </html>              
       </th>
-      <th>列标题3</th>
-      <th>列标题4</th> 
+      <th>
+        <html>
+          <audio controls>
+            <source src="dag_audio/air_conditioner_0.wav">
+          </audio>
+        </html>              
+      </th>
+      <th>
+        <html>
+          <audio controls>
+            <source src="dag_audio/air_conditioner_0.wav">
+          </audio>
+        </html>              
+      </th> 
       <th>列标题5</th>      
     </tr>
   </thead>
