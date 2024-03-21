@@ -2,7 +2,7 @@
 <head>
 <title>MaskSR: Masked Language Model for Full-band Speech Restoration</title>
 </head>
-<html>
+<body>
 
 # MaskSR: Masked Language Model for Full-band Speech Restoration
 
@@ -56,4 +56,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <audio controls>
     <source src="dag_audio/air_conditioner_1.wav">
   </audio>
+</html>
+
+</body>
 </html>
