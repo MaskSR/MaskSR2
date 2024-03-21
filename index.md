@@ -21,6 +21,13 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 
 ### Air conditioner
 
+<div class="navbar">
+  <a href="#">链接</a>
+  <a href="#">链接</a>
+  <a href="#">链接</a>
+  <a href="#" class="right">链接</a>
+</div>
+
 <html>
   <audio controls>
     <source src="dag_audio/air_conditioner_0.wav">
