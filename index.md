@@ -26,18 +26,12 @@ and also on sub-tasks compared with a wide range of models.
 
 Below, we include audio samples demonstrating how MaskSR performs on the full-band speech restoration task and several sub-tasks.
 
-### Air conditioner
-
-<div class="navbar">
-  <a href="#">链接</a>
-  <a href="#">链接</a>
-  <a href="#">链接</a>
-  <a href="#" class="right">链接</a>
-</div>
+### General Speech Restoration (ALL-GSR)
 
 <html>
   <audio controls>
     <source src="dag_audio/air_conditioner_0.wav">
+    original
   </audio>
 </html>
 
