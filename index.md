@@ -1,3 +1,9 @@
+<html>
+<head>
+<title>MaskSR: Masked Language Model for Full-band Speech Restoration</title>
+</head>
+<html>
+
 # MaskSR: Masked Language Model for Full-band Speech Restoration
 
 This is the demonstration page of the paper "MaskSR: Masked Language Model for Full-band Speech Restoration" with some selected samples generated with the proposed method.
