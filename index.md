@@ -164,6 +164,98 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 </table>
 
 
+### DNS-2020 no_reverb
+
+#### no_reverb test samples
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### with_reverb test samples
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### real_recordings test samples
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
 <html>
   <audio controls>
     <source src="dag_audio/air_conditioner_0.wav">
