@@ -58,7 +58,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </thead>
   <tbody>
     <tr>
-      <td>行1，列1</td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
       <td>行1，列2</td>
       <td>行1，列3</td>
       <td>行1，列2</td>
