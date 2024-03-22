@@ -34,7 +34,13 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </thead>
   <tbody>
     <tr>
-      <td><html><audio controls><source src="GSR/Unprocessed/1_simulated.wav"></audio></html></td>
+      <td>
+        <html>
+          <audio controls>
+            <source src="dag_audio/air_conditioner_0.wav">
+          </audio>
+        </html>
+      </td>
       <td><html><audio controls><source src="GSR/Target/1_clean.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/MaskSR-M/1_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/VoiceFixer/1_simulated.wav"></audio></html></td>
