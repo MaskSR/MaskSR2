@@ -53,13 +53,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
           </audio>
         </html>              
       </th> 
-      <th>
-        <html>
-          <audio controls>
-            <source src="dag_audio/air_conditioner_0.wav">
-          </audio>
-        </html>          
-      </th>      
+      <th><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></th>      
     </tr>
   </thead>
   <tbody>
