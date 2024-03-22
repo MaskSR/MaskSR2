@@ -25,68 +25,48 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 <table>
   <thead>
     <tr>
-      <th>
-        Unprocessed
-      </th>
-      <th>
-        <html>
-          <audio controls>
-            <source src="dag_audio/air_conditioner_1.wav">
-          </audio>
-        </html>              
-      </th>
-      <th>
-        <html>
-          <audio controls>
-            <source src="dag_audio/air_conditioner_2.wav">
-          </audio>
-        </html>              
-      </th>
-      <th>
-        <html>
-          <audio controls>
-            <source src="dag_audio/air_conditioner_0.wav">
-          </audio>
-        </html>              
-      </th> 
-      <th><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></th>      
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
-      <td>行1，列2</td>
-      <td>行1，列3</td>
-      <td>行1，列2</td>
-      <td>行1，列3</td>      
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
     </tr>
     <tr>
-      <td>行2，列1</td>
-      <td>行2，列2</td>
-      <td>行2，列3</td>
-      <td>行1，列2</td>
-      <td>行1，列3</td>      
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
     </tr>
     <tr>
-      <td>行2，列1</td>
-      <td>行2，列2</td>
-      <td>行2，列3</td>
-      <td>行1，列2</td>
-      <td>行1，列3</td>      
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>  
     </tr>
     <tr>
-      <td>行2，列1</td>
-      <td>行2，列2</td>
-      <td>行2，列3</td>
-      <td>行1，列2</td>
-      <td>行1，列3</td>      
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
     </tr>
     <tr>
-      <td>行2，列1</td>
-      <td>行2，列2</td>
-      <td>行2，列3</td>
-      <td>行1，列2</td>
-      <td>行1，列3</td>      
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>    
     </tr>    
   </tbody>
 </table>
