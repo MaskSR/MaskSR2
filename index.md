@@ -73,6 +73,8 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 
 ### Speech Super Resolution (SR)
 
+#### From 2kHz to 44.1kHz
+
 <html>
   <audio controls>
     <source src="dag_audio/air_conditioner_0.wav">
