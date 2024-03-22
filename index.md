@@ -26,11 +26,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <thead>
     <tr>
       <th>
-        <html>
-          <audio controls>
-            <source src="dag_audio/air_conditioner_0.wav">
-          </audio>
-        </html>      
+        Unprocessed
       </th>
       <th>
         <html>
