@@ -75,6 +75,95 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 
 #### From 2kHz to 44.1kHz
 
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### From 4kHz to 44.1kHz
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### From 8kHz to 44.1kHz
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+      <td><html><audio controls><source src="dag_audio/air_conditioner_0.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+
 <html>
   <audio controls>
     <source src="dag_audio/air_conditioner_0.wav">
