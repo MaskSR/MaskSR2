@@ -71,6 +71,8 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
+### Speech Super Resolution (SR)
+
 <html>
   <audio controls>
     <source src="dag_audio/air_conditioner_0.wav">
