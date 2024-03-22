@@ -41,7 +41,13 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
           </audio>
         </html>
       </td>
-      <td><html><audio controls><source src="GSR/Target/1_clean.wav"></audio></html></td>
+      <td>
+        <html>
+          <audio controls>
+            <source src="GSR/Target/1_clean.wav">
+          </audio>
+        </html>
+      </td>
       <td><html><audio controls><source src="GSR/MaskSR-M/1_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/VoiceFixer/1_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/NSNet2/1_simulated.wav"></audio></html></td>
