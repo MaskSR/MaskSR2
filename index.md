@@ -199,7 +199,6 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <thead>
     <tr>
       <th>Unprocessed</th>
-      <th>Target</th>
       <th>MaskSR-M</th>
       <th>FRCRN</th> 
       <th>DEMUCS</th>      
