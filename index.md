@@ -1,7 +1,7 @@
 
 # MaskSR: Masked Language Model for Full-band Speech Restoration
 
-This is the demonstration page of the paper "MaskSR: Masked Language Model for Full-band Speech Restoration" with some selected samples generated with the proposed method.
+This is the demonstration page of the paper "MaskSR: Masked Language Model for Full-band Speech Restoration" with some selected samples generated with the proposed method and some other baseline methods.
 
 
 ## Info
@@ -20,7 +20,7 @@ and also on sub-tasks compared with a wide range of models.
 
 Below, we include audio samples demonstrating how MaskSR performs on the full-band speech restoration task and several sub-tasks.
 
-### General Speech Restoration (ALL-GSR)
+### General Speech Restoration (ALL-GSR, 44.1kHz)
 
 <table>
   <thead>
@@ -83,7 +83,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
       <td><html><audio controls><source src="GSR/NSNet2/7_simulated.wav"></audio></html></td>  
     </tr> 
     <tr>
-      <td><html><audio controls preload><source src="GSR/Unprocessed/8_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Unprocessed/8_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/Target/8_clean.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/MaskSR-M/8_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/VoiceFixer/8_simulated.wav"></audio></html></td>
@@ -106,7 +106,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-### Speech Super Resolution (SR)
+### Speech Super Resolution (SR, 44.1kHz)
 
 #### From 1kHz to 44.1kHz
 
@@ -229,7 +229,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 </table>
 
 
-### DNS-2020 no_reverb
+### DNS-2020 test sets (16kHz)
 
 #### no_reverb test samples
 
@@ -237,6 +237,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <thead>
     <tr>
       <th>Unprocessed</th>
+      <th>Target</th>
       <th>MaskSR-M</th>
       <th>FRCRN</th> 
       <th>DEMUCS</th>      
@@ -245,24 +246,28 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <tbody>
     <tr>
       <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_90.wav"></audio></html></td>      
       <td><html><audio controls><source src="DNS2020_no_reverb/MaskSR/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_147.wav"></audio></html></td>      
       <td><html><audio controls><source src="DNS2020_no_reverb/MaskSR/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_81.wav"></audio></html></td>      
       <td><html><audio controls><source src="DNS2020_no_reverb/MaskSR/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_275.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/MaskSR/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
@@ -276,6 +281,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <thead>
     <tr>
       <th>Unprocessed</th>
+      <th>Target</th>
       <th>MaskSR-M</th>
       <th>FRCRN</th> 
       <th>DEMUCS</th>      
@@ -284,24 +290,28 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   <tbody>
     <tr>
       <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp1_train_69005_1_snr15_tl-21_fileid_158.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/Target/clean_fileid_158.wav"></audio></html></td>      
       <td><html><audio controls><source src="DNS2020_with_reverb/MaskSR/clnsp1_train_69005_1_snr15_tl-21_fileid_158.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/FRCRN/clnsp1_train_69005_1_snr15_tl-21_fileid_158.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp1_train_69005_1_snr15_tl-21_fileid_158.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/Target/clean_fileid_296.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/MaskSR/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/FRCRN/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp30_birds_121947_2_snr6_tl-27_fileid_116.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/Target/clean_fileid_116.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/MaskSR/clnsp30_birds_121947_2_snr6_tl-27_fileid_116.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/FRCRN/clnsp30_birds_121947_2_snr6_tl-27_fileid_116.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp30_birds_121947_2_snr6_tl-27_fileid_116.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp51_baby_416672_0_snr11_tl-22_fileid_167.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/Target/clean_fileid_167.wav"></audio></html></td>      
       <td><html><audio controls><source src="DNS2020_with_reverb/MaskSR/clnsp51_baby_416672_0_snr11_tl-22_fileid_167.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/FRCRN/clnsp51_baby_416672_0_snr11_tl-22_fileid_167.wav"></audio></html></td>
       <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp51_baby_416672_0_snr11_tl-22_fileid_167.wav"></audio></html></td>
