@@ -56,13 +56,6 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
       <td><html><audio controls><source src="GSR/NSNet2/3_simulated.wav"></audio></html></td>
     </tr>
     <tr>
-      <td><html><audio controls><source src="GSR/Unprocessed/4_simulated.wav"></audio></html></td>
-      <td><html><audio controls><source src="GSR/Target/4_clean.wav"></audio></html></td>
-      <td><html><audio controls><source src="GSR/MaskSR-M/4_simulated.wav"></audio></html></td>
-      <td><html><audio controls><source src="GSR/VoiceFixer/4_simulated.wav"></audio></html></td>
-      <td><html><audio controls><source src="GSR/NSNet2/4_simulated.wav"></audio></html></td>
-    </tr>
-    <tr>
       <td><html><audio controls><source src="GSR/Unprocessed/5_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/Target/5_clean.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/MaskSR-M/5_simulated.wav"></audio></html></td>
@@ -103,7 +96,28 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
       <td><html><audio controls><source src="GSR/MaskSR-M/10_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/VoiceFixer/10_simulated.wav"></audio></html></td>
       <td><html><audio controls><source src="GSR/NSNet2/10_simulated.wav"></audio></html></td>  
-    </tr>                     
+    </tr>     
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/11_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/11_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/MaskSR-M/11_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/11_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/NSNet2/11_simulated.wav"></audio></html></td>  
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/12_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/12_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/MaskSR-M/12_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/12_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/NSNet2/12_simulated.wav"></audio></html></td>  
+    </tr>    
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/13_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/13_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/MaskSR-M/13_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/13_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/NSNet2/13_simulated.wav"></audio></html></td>  
+    </tr>                                     
   </tbody>
 </table>
 
@@ -266,11 +280,11 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
       <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_006_mic1_10.00.wav"></audio></html></td>
     </tr>
     <tr>
-      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_012_mic1_10.00.wav"></audio></html></td>
-      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_012_mic1.wav"></audio></html></td>
-      <td><html><audio controls><source src="DECLIP/0.1/MaskSR-M/p360_012_mic1_10.00.wav"></audio></html></td>
-      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_012_mic1_10.00.wav"></audio></html></td>
-      <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_012_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_025_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_025_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/MaskSR-M/p360_025_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_025_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_025_mic1_10.00.wav"></audio></html></td>
     </tr>
   </tbody>
 </table>
@@ -336,11 +350,11 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </thead>
   <tbody>
     <tr>
-      <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_90.wav"></audio></html></td>      
-      <td><html><audio controls><source src="DNS2020_no_reverb/MaskSR/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp177_0kuIP7fLNpM_snr6_tl-26_fileid_90.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_127.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DNS2020_no_reverb/MaskSR/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
@@ -387,11 +401,11 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
       <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp1_train_69005_1_snr15_tl-21_fileid_158.wav"></audio></html></td>
     </tr>
     <tr>
-      <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_with_reverb/Target/clean_fileid_296.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_with_reverb/MaskSR/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_with_reverb/FRCRN/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp27_GvaTLOWuCK8_snr10_tl-22_fileid_296.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp81_car_74675_2_snr18_tl-22_fileid_9.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/Target/clean_fileid_9.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/MaskSR/clnsp81_car_74675_2_snr18_tl-22_fileid_9.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/FRCRN/clnsp81_car_74675_2_snr18_tl-22_fileid_9.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_with_reverb/DEMUCS/clnsp81_car_74675_2_snr18_tl-22_fileid_9.wav"></audio></html></td>
     </tr>
     <tr>
       <td><html><audio controls><source src="DNS2020_with_reverb/noisy/clnsp30_birds_121947_2_snr6_tl-27_fileid_116.wav"></audio></html></td>
@@ -441,10 +455,10 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
       <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_barking_5F9Gd2JNcw8.wav"></audio></html></td>
     </tr>
     <tr>
-      <td><html><audio controls><source src="DNS2020_real_recordings/noisy/audioset_realrec_barking_9uNc2tH5aV4.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_real_recordings/MaskSR/audioset_realrec_barking_9uNc2tH5aV4.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_real_recordings/FRCRN/audioset_realrec_barking_9uNc2tH5aV4.wav"></audio></html></td>
-      <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_barking_9uNc2tH5aV4.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/noisy/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/MaskSR/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/FRCRN/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
     </tr>
   </tbody>
 </table>
