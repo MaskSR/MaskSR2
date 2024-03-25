@@ -20,7 +20,9 @@ and also on sub-tasks compared with a wide range of models.
 
 Below, we include audio samples demonstrating how MaskSR performs on the full-band speech restoration task and several sub-tasks.
 
-### General Speech Restoration (ALL-GSR, 44.1kHz)
+## Full-band 44.1kHz speech restoration
+
+### Combinations of noise, reverb, clipping, and low bandwidth
 
 <table>
   <thead>
@@ -106,7 +108,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-### Speech Super Resolution (SR, 44.1kHz)
+### Bandwidth extension
 
 #### From 1kHz to 44.1kHz
 
@@ -228,10 +230,100 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
+### Speech declipping
 
-### DNS-2020 test sets (16kHz)
+#### Clipping threshold 0.1
 
-#### no_reverb test samples
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_001_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_001_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/MaskSR-M/p360_001_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_001_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_001_mic1_10.00.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_004_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_004_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/MaskSR-M/p360_004_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_004_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_004_mic1_10.00.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_006_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_006_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/MaskSR-M/p360_006_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_006_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_006_mic1_10.00.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_012_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_012_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/MaskSR-M/p360_012_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_012_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/NSNet2/p360_012_mic1_10.00.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Clipping threshold 0.25
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-M</th>
+      <th>VoiceFixer</th> 
+      <th>NSNet2</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.25/noisy/p361_004_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/clean/p361_004_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/MaskSR-M/p361_004_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/VoiceFixer/p361_004_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/NSNet2/p361_004_mic1_4.00.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.25/noisy/p361_005_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/clean/p361_005_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/MaskSR-M/p361_005_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/VoiceFixer/p361_005_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/NSNet2/p361_005_mic1_4.00.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.25/noisy/p361_006_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/clean/p361_006_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/MaskSR-M/p361_006_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/VoiceFixer/p361_006_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/NSNet2/p361_006_mic1_4.00.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.25/noisy/p361_009_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/clean/p361_009_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/MaskSR-M/p361_009_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/VoiceFixer/p361_009_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/NSNet2/p361_009_mic1_4.00.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Wideband 16kHz speech denoising and dereverberation
+
+#### DNS-2020 no_reverb test samples
 
 <table>
   <thead>
@@ -275,7 +367,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### with_reverb test samples
+#### DNS-2020 with_reverb test samples
 
 <table>
   <thead>
@@ -319,7 +411,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### real_recordings test samples
+#### DNS-2020 real_recordings test samples
 
 <table>
   <thead>
