@@ -4,9 +4,8 @@
 This is the demonstration page of the paper "MaskSR: Masked Language Model for Full-band Speech Restoration" with some selected samples generated with the proposed method and some other baseline methods.
 
 
-## Info
 
-### Abstract
+## Abstract
 
 Speech restoration aims at restoring high quality speech in the presence of a diverse set of distortions. Although several deep learning paradigms have been studied for this task,
 the power of the recently emerging language models has not been fully explored. In this paper, we propose MaskSR, a masked language model capable of restoring full-band 44.1 kHz speech
@@ -22,7 +21,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 
 ## Full-band 44.1kHz speech restoration
 
-### Combinations of noise, reverb, clipping, and low bandwidth
+### Speech restoration with distortions including noise, reverb, clipping, and low bandwidth
 
 <table>
   <thead>
