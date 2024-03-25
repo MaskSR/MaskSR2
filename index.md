@@ -320,9 +320,9 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 </table>
 
 
-### Wideband 16kHz speech denoising and dereverberation
+## Wideband 16kHz speech denoising and dereverberation
 
-#### DNS-2020 no_reverb test samples
+### DNS-2020 no_reverb test samples
 
 <table>
   <thead>
@@ -366,7 +366,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### DNS-2020 with_reverb test samples
+### DNS-2020 with_reverb test samples
 
 <table>
   <thead>
@@ -410,7 +410,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### DNS-2020 real_recordings test samples
+### DNS-2020 real_recordings test samples
 
 <table>
   <thead>
