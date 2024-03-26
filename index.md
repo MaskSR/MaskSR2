@@ -1,7 +1,7 @@
 
 # MaskSR: Masked Language Model for Full-band Speech Restoration
 
-This is the demonstration page of the paper "MaskSR: Masked Language Model for Full-band Speech Restoration" with some selected samples generated with the proposed method and some other baseline methods.
+This is the demonstration page of the paper "MaskSR: Masked Language Model for Full-band Speech Restoration" with samples generated with the proposed method and some other baseline methods.
 
 
 
@@ -17,9 +17,9 @@ and also on sub-tasks compared with a wide range of models.
 
 ## Demos
 
-Below, we include audio samples demonstrating how MaskSR performs on the full-band speech restoration task and several sub-tasks.
+Below, we show audio samples demonstrating how MaskSR performs on the full-band speech restoration task and several sub-tasks compared with some baseline methods.
 
-## Full-band 44.1kHz speech restoration
+## Full-band 44.1 kHz speech restoration
 
 ### Speech restoration with distortions including noise, reverb, clipping, and low bandwidth
 
@@ -123,7 +123,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 
 ### Bandwidth extension
 
-#### From 1kHz to 44.1kHz
+#### From 1 kHz to 44.1 kHz
 
 <table>
   <thead>
@@ -153,7 +153,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### From 2kHz to 44.1kHz
+#### From 2 kHz to 44.1 kHz
 
 <table>
   <thead>
@@ -183,7 +183,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### From 4kHz to 44.1kHz
+#### From 4 kHz to 44.1 kHz
 
 <table>
   <thead>
@@ -213,7 +213,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
   </tbody>
 </table>
 
-#### From 8kHz to 44.1kHz
+#### From 8 kHz to 44.1 kHz
 
 <table>
   <thead>
@@ -334,7 +334,7 @@ Below, we include audio samples demonstrating how MaskSR performs on the full-ba
 </table>
 
 
-## Wideband 16kHz speech denoising and dereverberation
+## Wideband 16 kHz speech denoising and dereverberation
 
 ### DNS-2020 no_reverb test samples
 
