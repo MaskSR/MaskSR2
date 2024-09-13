@@ -1,8 +1,9 @@
 
 # Joint Semantic Knowledge Distillation and Masked Acoustic Modeling for Full-band Speech Restoration with Improved Intelligibility
 
-This is the demonstration page of the paper "Joint Semantic Knowledge Distillation and Masked Acoustic Modeling for Full-band Speech Restoration with Improved Intelligibility" with samples generated with the proposed method and some other baseline methods.
+Xiaoyu Liu    Xu Li    Joan Serrà    Santiago Pascual
 
+This is the demonstration page of the paper "Joint Semantic Knowledge Distillation and Masked Acoustic Modeling for Full-band Speech Restoration with Improved Intelligibility" with samples generated with the proposed method and some other baseline methods.
 
 
 ## Abstract
@@ -120,5 +121,333 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
       <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p374_120_364_proc.wav"></audio></html></td>
       <th>not</th> 
     </tr>                                   
+  </tbody>
+</table>
+
+#### MaskSR2 vs. other full-band models
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>
+      <th>VoiceFixer</th>
+      <th>DeepFilterNet3</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/1_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/1_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/1_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/1_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/1_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/1_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/3_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/3_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/3_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/3_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/3_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/3_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/5_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/5_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/5_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/5_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/5_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/5_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/6_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/6_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/6_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/6_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/6_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/6_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/7_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/7_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/7_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/7_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/7_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/7_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/8_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/8_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/8_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/8_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/8_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/8_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/9_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/9_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/9_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/9_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/9_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/9_simulated_proc.wav"></audio></html></td>
+    </tr> 
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/11_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/11_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/11_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/11_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/11_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/11_simulated_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/12_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/12_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/12_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/12_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/12_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/12_simulated_proc.wav"></audio></html></td>
+    </tr> 
+    <tr>
+      <td><html><audio controls><source src="GSR/Unprocessed/13_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/Target/13_clean.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/13_simulated_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR2-L/13_simulated_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="GSR/VoiceFixer/13_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/13_simulated_proc.wav"></audio></html></td>
+    </tr>                                
+  </tbody>
+</table>
+
+### Bandwidth Extension
+
+#### From 2 kHz to Full-band
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>
+      <th>VoiceFixer</th>
+      <th>DeepFilterNet3</th>     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="SR/Unprocessed/p360_275_mic1_2000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="SR/Target/p360_275_mic1_2000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p360_275_mic1_2000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p360_275_mic1_2000_cheby1_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="SR/VoiceFixer/p360_275_mic1_2000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p360_275_mic1_2000_cheby1_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="SR/Unprocessed/p363_037_mic1_2000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="SR/Target/p363_037_mic1_2000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p363_037_mic1_2000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p363_037_mic1_2000_cheby1_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="SR/VoiceFixer/p363_037_mic1_2000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p363_037_mic1_2000_cheby1_proc.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### From 4 kHz to Full-band
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>
+      <th>VoiceFixer</th>
+      <th>DeepFilterNet3</th>    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="SR/Unprocessed/p361_084_mic1_4000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="SR/Target/p361_084_mic1_4000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p361_084_mic1_4000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p361_084_mic1_4000_cheby1_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="SR/VoiceFixer/p361_084_mic1_4000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p361_084_mic1_4000_cheby1_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="SR/Unprocessed/p364_249_mic1_4000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="SR/Target/p364_249_mic1_4000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p364_249_mic1_4000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p364_249_mic1_4000_cheby1_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="SR/VoiceFixer/p364_249_mic1_4000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p364_249_mic1_4000_cheby1_proc.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+### Declipping
+
+#### Clipping threshold 0.1
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>
+      <th>VoiceFixer</th>
+      <th>DeepFilterNet3</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_001_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_001_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p360_001_mic1_10.00_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p360_001_mic1_10.00_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_001_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p360_001_mic1_10.00_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.1/noisy/p360_004_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.1/clean/p360_004_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p360_004_mic1_10.00_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p360_004_mic1_10.00_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DECLIP/0.1/VoiceFixer/p360_004_mic1_10.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p360_004_mic1_10.00_proc.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Clipping threshold 0.25
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>
+      <th>VoiceFixer</th>
+      <th>DeepFilterNet3</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.25/noisy/p361_004_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/clean/p361_004_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p361_004_mic1_4.00_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p361_004_mic1_4.00_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DECLIP/0.25/VoiceFixer/p361_004_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p361_004_mic1_4.00_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DECLIP/0.25/noisy/p361_005_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DECLIP/0.25/clean/p361_005_mic1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p361_005_mic1_4.00_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p361_005_mic1_4.00_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DECLIP/0.25/VoiceFixer/p361_005_mic1_4.00.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p361_005_mic1_4.00_proc.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+## Wideband 16 kHz speech denoising
+
+### DNS-2020 no_reverb test samples
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>      
+      <th>FRCRN</th> 
+      <th>DEMUCS</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_127.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR-L/clnsp178_baby_416649_0_snr15_tl-32_fileid_127_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/clnsp178_baby_416649_0_snr15_tl-32_fileid_127_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp178_baby_416649_0_snr15_tl-32_fileid_127.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_147.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR-L/clnsp25_babble_188218_21_snr5_tl-25_fileid_147_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/clnsp25_babble_188218_21_snr5_tl-25_fileid_147_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp25_babble_188218_21_snr5_tl-25_fileid_147.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_81.wav"></audio></html></td>      
+      <td><html><audio controls><source src="MaskSR-L/clnsp62_birds_413745_6_snr14_tl-33_fileid_81_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/clnsp62_birds_413745_6_snr14_tl-33_fileid_81_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp62_birds_413745_6_snr14_tl-33_fileid_81.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_no_reverb/noisy/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/Target/clean_fileid_275.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/clnsp71_babble_188218_26_snr4_tl-20_fileid_275_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/clnsp71_babble_188218_26_snr4_tl-20_fileid_275_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DNS2020_no_reverb/FRCRN/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_no_reverb/DEMUCS/clnsp71_babble_188218_26_snr4_tl-20_fileid_275.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+### DNS-2020 real_recordings test samples
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>      
+      <th>FRCRN</th> 
+      <th>DEMUCS</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_real_recordings/noisy/audioset_realrec_airconditioner_8v4sEeK2Owc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/audioset_realrec_airconditioner_8v4sEeK2Owc_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/audioset_realrec_airconditioner_8v4sEeK2Owc_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/FRCRN/audioset_realrec_airconditioner_8v4sEeK2Owc.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_airconditioner_8v4sEeK2Owc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_real_recordings/noisy/audioset_realrec_airconditioner_EK746oGQz6E.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/audioset_realrec_airconditioner_EK746oGQz6E_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/audioset_realrec_airconditioner_EK746oGQz6E_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/FRCRN/audioset_realrec_airconditioner_EK746oGQz6E.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_airconditioner_EK746oGQz6E.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_real_recordings/noisy/audioset_realrec_barking_5F9Gd2JNcw8.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/audioset_realrec_barking_5F9Gd2JNcw8_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/audioset_realrec_barking_5F9Gd2JNcw8_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/FRCRN/audioset_realrec_barking_5F9Gd2JNcw8.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_barking_5F9Gd2JNcw8.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="DNS2020_real_recordings/noisy/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/audioset_realrec_car_0AVTgzegI4s_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/audioset_realrec_car_0AVTgzegI4s_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="DNS2020_real_recordings/FRCRN/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
+      <td><html><audio controls><source src="DNS2020_real_recordings/DEMUCS/audioset_realrec_car_0AVTgzegI4s.wav"></audio></html></td>
+    </tr>
   </tbody>
 </table>
