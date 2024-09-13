@@ -1,7 +1,7 @@
 
 # Joint Semantic Knowledge Distillation and Masked Acoustic Modeling for Full-band Speech Restoration with Improved Intelligibility
 
-Xiaoyu Liu    Xu Li    Joan Serrà    Santiago Pascual
+Xiaoyu Liu,    Xu Li,    Joan Serrà,    Santiago Pascual
 
 This is the demonstration page of the paper "Joint Semantic Knowledge Distillation and Masked Acoustic Modeling for Full-band Speech Restoration with Improved Intelligibility" with samples generated with the proposed method and some other baseline methods.
 
