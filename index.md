@@ -19,5 +19,3 @@ representations of the target speech, using a pre-trained self-supervised teache
 ## Demos
 
 Will add later.
-
-  
