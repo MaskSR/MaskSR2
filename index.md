@@ -104,15 +104,7 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
       <td><html><audio controls><source src="For_intelligibility_table/masksr_L/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
       <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
       <th>other</th> 
-    </tr>     
-    <tr>
-      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/p374_120_364.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/p374_120_364.wav"></audio></html></td>
-      <th>That's not going to happen again</th>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/p374_120_364_proc.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p374_120_364_proc.wav"></audio></html></td>
-      <th>not</th> 
-    </tr>                                   
+    </tr>                                    
   </tbody>
 </table>
 
