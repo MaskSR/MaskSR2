@@ -66,19 +66,19 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
       <th>for</th> 
     </tr>  
     <tr>
-      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/P361_174_66.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/P361_174_66.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/p361_174_66.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/target/p361_174_66.wav"></audio></html></td>
       <th>The quality of life is difficult for them.</th>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/P361_174_66_proc.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/P361_174_66_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/p361_174_66_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p361_174_66_proc.wav"></audio></html></td>
       <th>life, difficult</th> 
     </tr>    
     <tr>
-      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/P362_158_555.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/P362_158_555.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/p362_158_555.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/target/p362_158_555.wav"></audio></html></td>
       <th>However, the story has a happy ending.</th>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/P362_158_555_proc.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/P362_158_555_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/p362_158_555_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p362_158_555_proc.wav"></audio></html></td>
       <th>ending</th> 
     </tr> 
     <tr>
@@ -98,11 +98,11 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
       <th>do</th> 
     </tr>    
     <tr>
-      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/P363_283_mic1_1000_cheby1.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/P363_283_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/p363_283_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/target/p363_283_mic1_1000_cheby1.wav"></audio></html></td>
       <th>And the other winners are.</th>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/P363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/P363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
       <th>other</th> 
     </tr>     
     <tr>
