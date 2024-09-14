@@ -37,21 +37,13 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
       <th>Transcription</th>
       <th>MaskSR-L</th> 
       <th>MaskSR2-L</th>
-      <th>Improved works</th>      
+      <th>Improved words</th>      
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><html><audio controls><source src="For_intelligibility_table/unprocessed/p360_018_272.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/1_clean.wav"></audio></html></td>
-      <th>Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain.</th>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr_L/p360_018_272_proc.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/p360_018_272_proc.wav"></audio></html></td>
-      <th>by</th> 
-    </tr>
-    <tr>
       <td><html><audio controls><source src="For_intelligibility_table/unprocessed/2_simulated.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/2_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/target/2_clean.wav"></audio></html></td>
       <th>Throughout the centuries, people have explained the rainbow.</th>
       <td><html><audio controls><source src="For_intelligibility_table/masksr_L/2_simulated_proc.wav"></audio></html></td>
       <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/2_simulated_proc.wav"></audio></html></td>
@@ -67,7 +59,7 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
     </tr>
     <tr>
       <td><html><audio controls><source src="For_intelligibility_table/unprocessed/10_simulated.wav"></audio></html></td>
-      <td><html><audio controls><source src="For_intelligibility_table/target/10_simulated.wav"></audio></html></td>
+      <td><html><audio controls><source src="For_intelligibility_table/target/10_clean.wav"></audio></html></td>
       <th>I have so much respect for him. His friend</th>
       <td><html><audio controls><source src="For_intelligibility_table/masksr_L/10_simulated_proc.wav"></audio></html></td>
       <td><html><audio controls><source src="For_intelligibility_table/masksr2_L/10_simulated_proc.wav"></audio></html></td>
@@ -223,7 +215,40 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
 
 ### Bandwidth Extension
 
-#### From 2 kHz to Full-band
+#### From 1 kHz to full bandwidth
+
+<table>
+  <thead>
+    <tr>
+      <th>Unprocessed</th>
+      <th>Target</th>
+      <th>MaskSR-L</th>
+      <th>MaskSR2-L</th>
+      <th>VoiceFixer</th>
+      <th>DeepFilterNet3</th>         
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><html><audio controls><source src="SR/Unprocessed/p360_354_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="SR/Target/p360_354_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p360_354_mic1_1000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p360_354_mic1_1000_cheby1_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="SR/VoiceFixer/p360_354_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p360_354_mic1_1000_cheby1_proc.wav"></audio></html></td>
+    </tr>
+    <tr>
+      <td><html><audio controls><source src="SR/Unprocessed/p363_283_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="SR/Target/p363_283_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR-L/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
+      <td><html><audio controls><source src="MaskSR2-L/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>      
+      <td><html><audio controls><source src="SR/VoiceFixer/p363_283_mic1_1000_cheby1.wav"></audio></html></td>
+      <td><html><audio controls><source src="DeepFilterNet3/p363_283_mic1_1000_cheby1_proc.wav"></audio></html></td>
+    </tr>
+  </tbody>
+</table>
+
+#### From 2 kHz to full bandwidth
 
 <table>
   <thead>
@@ -256,7 +281,7 @@ These samples demonstrate that MaskSR2 improves the intelligibility of the gener
   </tbody>
 </table>
 
-#### From 4 kHz to Full-band
+#### From 4 kHz to full bandwidth
 
 <table>
   <thead>
